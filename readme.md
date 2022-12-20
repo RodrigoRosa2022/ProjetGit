@@ -3,6 +3,7 @@ Isto é uma alteração.
 
 
 Salvar arquivo.
+
 Abrir Git Bash na pasta do arquivo.
 git init
 git add NomedoArquivo.extensão
@@ -28,3 +29,18 @@ git status
 git commit -m "titulo do commit"
 (se já tiver feito conexão, não precisa fazer o git remote de novo)
 git push origin main
+
+para criar nova ramificação fora do tronco principal
+no git Bash:
+clear
+git checkout -b "novo-botao"
+git add .
+git commit -m "novo botão"
+git push origin novo-botao
+
+se precisar voltar para o principal:
+git checkout main
+
+para fazer o merge da branch para o tronco principal:
+git checkout main
+git merge novo-botao
