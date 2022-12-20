@@ -44,3 +44,7 @@ git checkout main
 para fazer o merge da branch para o tronco principal:
 git checkout main
 git merge novo-botao
+
+para puxar uma versão do github (nuvem) para sua máquina:
+git pull
+
